@@ -2,21 +2,18 @@
 A toolbox of Bayesian nonparametric space partition methods. We provide implementations of Sparti methods as follows:
 
 - [Rectangular Bounding Process](https://papers.nips.cc/paper/2018/hash/8ce87bdda85cd44f14de9afb86491884-Abstract.html) Xuhui Fan, Bin Li, Scott A. Sisson. The 32nd Conference on Neural Information Processing Systems (NeurIPS-18) 
-
     
     This method uses "bounding" strategy to directly generate boxes in a product space and is able to reduce modelling on sparse and noisy regions.
     
-
-- Network embedding for node classification, link prediction and node retrieval, etc.
-
-    This task provides a network, and contains the following steps:
+- [Binary Space Partitioning-Tree Process](http://proceedings.mlr.press/v84/fan18b.html) Xuhui Fan, Bin Li, Scott A. Sisson. The 21st International Conference on Artificial Intelligence and Statistics (AISTATS- 18). 
     
-    1. Each node is represented as the hashcode;  
-    2. Pairwise hamming similarity calculation between the hashcodes;  
-    3. Hamming-similarity-based node classification, link prediction and node retrieval, etc.
+    This method allows sloped hierarchical cuts in a 2-dimensional space and can describe dimensional dependencies.
 
-    We provide the following algorithms:
+- [Binary Space Partitioning Forest](http://proceedings.mlr.press/v89/fan19b.html) Xuhui Fan, Bin Li, Scott A. Sisson. The 22nd International Conference on Artificial Intelligence and Statistics (AISTATS- 19). 
     
-    - [NetHash](https://github.com/drhash-cn/graph-hashing/tree/main/nethash). Wei Wu, Bin Li, Ling Chen, Chengqi Zhang. (2018). Efficient Attributed Network Embedding via Recursive Randomized Hashing. Proceedings of the 27th International Joint Conference on Artificial Intelligence. 2861-2867.
-    - [#GNN](https://github.com/drhash-cn/graph-hashing/tree/main/hash-gnn). Wei Wu, Bin Li, Chuan Luo and Wolfgang Nejdl. (2021). Hashing-Accelerated Graph Neural Networks for Link Prediction. Proceedings of the 30th Web Conference. 2910-2920.
-    - [#GNN+](https://github.com/drhash-cn/graph-hashing/tree/main/hash-gnn-plus). 
+    This method uses 2-dimensional hyperplane to enable sloped cuts in a multi-dimensional space. 
+
+- [Online Binary Space Partitioning Forests](http://proceedings.mlr.press/v108/fan20a) Xuhui Fan, Bin Li, Scott A. Sisson. The 23rd International Conference on Artificial Intelligence and Statistics (AISTATS-20). 
+    
+    This method adopts the generative process of Binary Space Partitioning Forests to enable online learning.
+
