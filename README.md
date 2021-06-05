@@ -1,18 +1,11 @@
 # Sparti: Bayesian Nonparametric Space Partition methods
 A toolbox of Bayesian nonparametric space partition methods. We provide implementations of Sparti methods as follows:
 
-- Rectangular Bounding Process
+- Rectangular Bounding Process(https://github.com/sparti-ml/Sparti/tree/main/Github_RelationalModel_RBP_upload)
     
-    This problem provides a graph database which consists of multiple graphs, and contains the following steps:
+    This method uses "bounding" strategy to directly generate boxes in a product space and is able to reduce modelling on sparse and noisy regions.
     
-    1. Each graph is represented as the hashcode;  
-    2. Pairwise hamming similarity calculation between the hashcodes;  
-    3. Hamming-similarity-based Graph classification.
-    
-    We provide the following algorithms:
-    
-    - [Nested Subtree Hashing (NSH)](https://github.com/drhash-cn/graph-hashing/tree/main/nested-subtree-hash-kernels). Bin Li, Xingquan Zhu, Lianhua Chi, Chengqi Zhang. (2012). Nested Subtree Hash Kernels for Large-scale Graph Classification over Streams. Proceedings of the 12th International Conference on Data Mining. 399-408.
-    - [K-Ary Tree Hashing (KATH)](https://github.com/drhash-cn/graph-hashing/tree/main/kath). Wei Wu, Bin Li, Ling Chen, Xingquan Zhu, Chengqi Zhang. (2018). K-Ary Tree Hashing for Fast Graph Classification. IEEE Transactions on Knowledge and Data Engineering. 30(5):936-949.
+    Related paper: Xuhui Fan, Bin Li, Scott A. Sisson. “Rectangular Bounding Process”. The 32nd Conference on Neural Information Processing Systems (NeurIPS-18) 
 
 - Network embedding for node classification, link prediction and node retrieval, etc.
 
