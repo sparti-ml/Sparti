@@ -1,5 +1,5 @@
-# Sparti: Bayesian Nonparametric Space Partition methods
-A toolbox of Bayesian nonparametric space partition methods. We provide implementations of Sparti methods as follows:
+# Sparti - Spatial Partition Inference Toolbox
+A toolbox of Bayesian nonparametric space partition models. We provide implementations of Sparti methods as follows:
 
 - [Rectangular Bounding Process](https://papers.nips.cc/paper/2018/hash/8ce87bdda85cd44f14de9afb86491884-Abstract.html) Xuhui Fan, Bin Li, Scott A. Sisson. The 32nd Conference on Neural Information Processing Systems (NeurIPS-18) 
     
