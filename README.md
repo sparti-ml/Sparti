@@ -1,7 +1,7 @@
 # Sparti: Bayesian Nonparametric Space Partition methods
 A toolbox of Bayesian nonparametric space partition methods. We provide implementations of Sparti methods as follows:
 
-- Rectangular Bounding Process(https://github.com/sparti-ml/Sparti/tree/main/Github_RelationalModel_RBP_upload)
+- [Rectangular Bounding Process](https://github.com/sparti-ml/Sparti/tree/main/Github_RelationalModel_RBP_upload)
     
     This method uses "bounding" strategy to directly generate boxes in a product space and is able to reduce modelling on sparse and noisy regions.
     
